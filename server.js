@@ -50,7 +50,7 @@ app.get("/api/menu", async (req, res) => {
   } = req.query;
   console.log(req.query);
 
-  const url = `https://www.swiggy.com/dapi/menu/pl?page-type=${page_type}&complete-menu=${complete_menu}&lat=${lat}&lng=${lng}&submitAction=${submitAction}&restaurantId=${restaurantId}`;
+  const url = `https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=21.99740&lng=79.00110&restaurantId=${restaurantId}`;
 
   await fetch(url, {
     headers: {
