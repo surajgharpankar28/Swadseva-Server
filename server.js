@@ -12,7 +12,8 @@ app.get("/api/restaurants", async (req, res) => {
   const { lat, lng, page_type } = req.query;
   console.log(req.query);
 
-  const url = `https://www.swiggy.com/dapi/restaurants/list/v5?lat=${lat}&lng=${lng}&page_type=${page_type}`;
+  // const url = `https://www.swiggy.com/dapi/restaurants/list/v5?lat=${lat}&lng=${lng}&page_type=${page_type}`;
+  const url = `https://www.swiggy.com/dapi/restaurants/list/v5?lat=16.7049873&lng=74.24325270000001&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING`;
 
   await fetch(url, {
     headers: {
