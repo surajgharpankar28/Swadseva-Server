@@ -30,7 +30,7 @@ Start the server
   npm run start
 ```
 
-💫 Test the FoodFire Server Locally in your FoodFire React App then use this domain name (`http://localhost:3000/`) if the Server is running on a `3000` Port:
+💫 Test the Swadseva Server Locally in your Swadseva React App then use this domain name (`http://localhost:3000/`) if the Server is running on a `3000` Port:
 ```javascript
 const response =  await fetch(`http://localhost:3000/api/restaurants?lat=12.9351929&lng=77.62448069999999&page_type=DESKTOP_WEB_LISTING`)
 
@@ -39,7 +39,7 @@ const data = await response.json();
 
 
 ## 🔮 Deploy the Swadseva server
-Once you have tested the FoodFire server locally, you can deploy it to a production environment by following these steps.
+Once you have tested the Swadseva server locally, you can deploy it to a production environment by following these steps.
 
 1. Create an account on [Render](https://render.com/) if you haven't already.
 2. Click on the `New +` button and select `Web Service` from the dropdown menu.
