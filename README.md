@@ -1,6 +1,6 @@
-# 🌐 FoodFire Server
+# 🌐 Swadseva Server
 
-A FoodFire Server (Node.js web server) that fetches data from a third-party (Swiggy) API (Fix the CORS Issue) and exposes it to a client [🚀 FoodFire ](https://foodfire-app.netlify.app/) App 😍.
+A Swadseva Server (Node.js web server) that fetches data from a third-party (Swiggy) API (Fix the CORS Issue) and exposes it to a client [🚀 Swadseva ](https://swadseva-ssg.vercel.app/) App 😍.
 
 🍁 [Swadseva App](https://swadseva-ssg.vercel.app/) is part of [Namaste React Live Course](https://learn.namastedev.com/courses/namaste-react-live) and Github Repository for this App is [Swadseva](https://github.com/surajgharpankar28/SwadSeva.git) ️
 <br/>
