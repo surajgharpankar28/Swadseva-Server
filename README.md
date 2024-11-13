@@ -57,6 +57,5 @@ const response =  await fetch(`http://YourOwnServerName.onrender.com/api/restaur
 ## 🔗 Let's Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/surajgharpankar/)
-[![X](https://img.shields.io/twitter/follow/:user
-)](https://x.com/surajgharpankar)
+[![X](https://img.shields.io/twitter/)](https://x.com/surajgharpankar)
 
